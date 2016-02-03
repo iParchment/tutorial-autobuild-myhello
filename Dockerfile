@@ -1,5 +1,5 @@
-FROM ubuntu:trusty
-MAINTAINER alaudadoc alaudadoc@alauda.cn
+FROM index.alauda.cn/tutum/ubuntu
+MAINTAINER jason jason@hotmail.com
 
 RUN apt-get update && apt-get install -y nodejs
 EXPOSE 80
